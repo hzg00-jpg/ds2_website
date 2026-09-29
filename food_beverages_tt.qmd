@@ -1,0 +1,23 @@
+---
+title: "Food Beverages"
+description: |
+  Analysis of food beverages data from TidyTuesday
+author: hzg00-jpg
+date: 09/28/2026
+format: html
+---
+
+```{r}
+#| echo: false
+library(tidyverse)
+```
+```{r}
+food_beverages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv')
+
+ggplot(food_beverages, aes(x = Year, y = Sugar)) +
+    geom_point() + 
+    labs(
+        x = "Year",
+        y = "Sugar levels"
+    )
+```

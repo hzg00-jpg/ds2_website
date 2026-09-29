@@ -3,12 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "hzg00jpg"
+  title: "hzg00-jpg"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: "Data Visualization"
+        menu: 
+          - text: "Food and beverages"
+            href: food_beverages_tt.qmd
 
 format:
   html:

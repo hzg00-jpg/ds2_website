@@ -1,5 +1,5 @@
 ---
-title: "hzg00jpg"
+title: "hzg00-jpg"
 ---
 
 This is a Quarto website.
