@@ -13,6 +13,8 @@ website:
         menu: 
           - text: "Food and beverages"
             href: food_beverages_tt.qmd
+          - text: "Penguins"
+            href: penguins.qmd
 
 format:
   html:
