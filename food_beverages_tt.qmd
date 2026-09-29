@@ -7,6 +7,8 @@ date: 09/28/2026
 format: html
 ---
 
+Data collected from: https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-05
+
 ```{r}
 #| echo: false
 suppressPackageStartupMessages(library(tidyverse))

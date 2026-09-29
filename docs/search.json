@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "food_beverages_tt.html",
+    "href": "food_beverages_tt.html",
+    "title": "Food Beverages",
+    "section": "",
+    "text": "Data collected from: https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-05"
   }
 ]
