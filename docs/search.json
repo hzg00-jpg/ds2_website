@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "hzg00-jpg",
+    "objectID": "penguins.html",
+    "href": "penguins.html",
+    "title": "Penguins",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "Data collected from: https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-07-14"
   },
   {
     "objectID": "food_beverages_tt.html",
@@ -19,5 +12,19 @@
     "title": "Food Beverages",
     "section": "",
     "text": "Data collected from: https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-05"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello. I like ducks.\n\nGithub repo: https://github.com/hzg00-jpg/hzg00-jpg.github.io"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "hzg00-jpg",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

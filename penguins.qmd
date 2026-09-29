@@ -1,0 +1,31 @@
+---
+title: "Penguins"
+description: |
+  Analysis of penguin data from TidyTuesday
+author: hzg00-jpg
+date: 09/28/2026
+format: html
+---
+
+Data collected from: https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-07-14
+
+```{r}
+#| echo: false
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+```{r}
+#| echo: false
+#| warning: false
+many_penguins <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-14/many_penguins.csv', show_col_types = FALSE)
+
+
+ggplot(many_penguins, aes(x = beak.width, y = beak.length_culmen)) +
+    geom_point() + 
+    labs(
+        x = "Beak width (mm)",
+        y = "Culmen length (mm)",
+        title = "Penguin beak width to culmen length relation"
+    ) +
+        facet_wrap(~species)
+```
