@@ -9,10 +9,10 @@ format: html
 
 ```{r}
 #| echo: false
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 ```
 ```{r}
-food_beverages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv')
+food_beverages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv', show_col_types = FALSE)
 
 ggplot(food_beverages, aes(x = Year, y = Sugar)) +
     geom_point() + 
