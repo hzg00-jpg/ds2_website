@@ -11,13 +11,17 @@ format: html
 #| echo: false
 suppressPackageStartupMessages(library(tidyverse))
 ```
+
 ```{r}
+#| echo: false
+#| warning: false
 food_beverages <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv', show_col_types = FALSE)
 
 ggplot(food_beverages, aes(x = Year, y = Sugar)) +
     geom_point() + 
     labs(
         x = "Year",
-        y = "Sugar levels"
+        y = "Sugar produced (tons)",
+        title = "Sugar production levels over the years"
     )
 ```

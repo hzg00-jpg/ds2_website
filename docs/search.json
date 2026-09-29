@@ -12,12 +12,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "food_beverages_tt.html",
-    "href": "food_beverages_tt.html",
-    "title": "Food Beverages",
-    "section": "",
-    "text": "food_beverages &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv', show_col_types = FALSE)\n\nggplot(food_beverages, aes(x = Year, y = Sugar)) +\n    geom_point() + \n    labs(\n        x = \"Year\",\n        y = \"Sugar levels\"\n    )\n\nWarning: Removed 7 rows containing missing values or values outside the scale range\n(`geom_point()`)."
   }
 ]
